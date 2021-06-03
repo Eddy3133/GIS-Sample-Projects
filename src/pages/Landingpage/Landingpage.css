@@ -1,0 +1,25 @@
+.container{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.heading{
+ font-size: 25px;
+ font-family: 'Roboto', sans-serif;
+}
+
+.dasboardbtn{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    padding: 17px 35px 17px 35px;
+}
+
+ .dasboardbtn:hover{
+ background-color: #4553FE;
+}
