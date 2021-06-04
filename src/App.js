@@ -1,6 +1,9 @@
 import React from 'react'
 import Landingpage from './pages/Landingpage/Landingpage'
-import Dashboard from './pages/Dashboard/Dashboard'
+import About from './pages/About/About'
+import Works from './pages/Works/Works'
+import Contact from './pages/Contact/Contact'
+import Header from './component/Header/Header'
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,9 +15,12 @@ function App() {
   return (
     <Router>
       <div className="App">
+       <Header />
         <Switch>
           <Route exact path="/" component={Landingpage} />
-          <Route exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/works" component={Works} />
         </Switch>
     </div>
     </Router>

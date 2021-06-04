@@ -1,0 +1,23 @@
+.contactcontainer{
+color: white;
+}
+
+.contactheading{
+    text-align: center;
+}
+.contactheading span{
+   color: #4553FE;
+}
+
+.contactinfo{
+    text-align: center;
+    padding: 40px;
+}
+.contactinfo img{
+    padding: 50px;
+}
+.contactinfo img:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.5);
+}
+

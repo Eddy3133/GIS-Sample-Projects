@@ -1,0 +1,16 @@
+.headercontainer{
+    color: white;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+
+.listitem a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+}
