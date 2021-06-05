@@ -5,9 +5,10 @@
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    align-items: center;
+    align-items: left;
+    
 }
-
-
 
 .listitem a{
     padding-top: 20px;

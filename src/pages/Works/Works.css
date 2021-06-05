@@ -1,22 +1,48 @@
 
+/* .box{
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  border: 10px solid #181818;
+  border-radius: 20px;
+  border-radius: 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 234px;
+  margin-top: 55px;
+  
+} */
 .workcontainer{
   color: white;
 }
 
-.project1{
-  width: 70%;
-  text-align: center;
-  margin-left: 150px;
+
+.topic{
+  margin-left: 245px;
 }
 
+.note{
+  margin-left: 245px;
+  word-wrap: inherit;
+}
+
+.project1{
+   
+  width: 70%;
+  text-align: center;
+  margin-left: 211px;
+ 
+}
+ 
+  
 .project2{
   width: 70%;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 211px;
 }
 
 .project3{
   width: 70%;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 211px;
 }
