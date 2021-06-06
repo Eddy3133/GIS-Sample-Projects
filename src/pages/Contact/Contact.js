@@ -13,7 +13,7 @@ function Contact() {
             <h3>Contact me @:</h3>
             </div>
         <div className="contactinfo">
-          <a href="https://www.linkedin.com/in/edirin-okpikpi-558286140/</div>" target="_blank"  rel="noreferrer"><img src={linkedin} alt="linkedin" id="log1" /></a>
+          <a href="https://www.linkedin.com/in/edirin-okpikpi-558286140/" target="_blank"  rel="noreferrer"><img src={linkedin} alt="linkedin" id="log1" /></a>
           
         
            <a href = "mailto: edirinokpikpi@gmail.com" id="log2"><img src={email} alt="email" /></a>
