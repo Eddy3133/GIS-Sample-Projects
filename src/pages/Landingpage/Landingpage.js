@@ -11,7 +11,7 @@ function Landingpage() {
     return (
         <div className="container">
             <div className="heading">
-            <h1>I am Edirin Okpikpi A GIS Developer/Technician</h1>
+            <h1>I am Edirin Okpikpi a GIS Developer/Technician</h1>
             <h3>A creative GIS Developer and Technician with a knack for GIS data manipulation and visualization</h3>
             <Link className="dasboardbtn" to="/works">See Works</Link>
             </div>
