@@ -64,7 +64,7 @@ function Works() {
             <img loading="lazy" src={MapSampleThree} alt="Roseau and Rat Map" width= "1000" height="700"/>
             <p>This is a basic contour map showing the land elevation of the area of interest. I got the LiDAR data to make this map </p>
             </div>
-            <ScrollToTop smooth style={{borderRadius: "50%", backgroundColor: "#4553FE"}} />
+            <ScrollToTop smooth style={{borderRadius: "50%", backgroundColor: "#4553FE", marginRight: "10px"}} />
         </div>
         
     )

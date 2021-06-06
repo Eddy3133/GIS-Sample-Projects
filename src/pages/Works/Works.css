@@ -48,6 +48,13 @@
  
 @media screen and (max-width: 768px){
 
+  .workcontainer{
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+
   .project{
     width: 70%;
     text-align: center;
@@ -74,4 +81,28 @@
     text-align: center;
   }
    
+}
+
+@media screen and (max-device-width: 320px){
+  .project iframe{
+    width: 200px;
+    height: 100px;
+  }
+  .project img{
+    width: 200px;
+    height: 100px;
+  }
+  .project p{
+    font-size: 12px;
+  }
+  .project h2{
+    font-size: 17px;
+  }
+
+  .topic p{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 10px;
+    width: 80%;
+  }
 }
