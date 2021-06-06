@@ -13,12 +13,9 @@ function Works() {
         <div className="workcontainer">
             <div className="topic">
             <h1>ArcGIS Online Maps</h1> 
+            <p>Note: All interactive maps in this page were made with the ArcGIS Online platform only and because of that the feature capacity of the maps are limited. The aim of the maps is just to demonstrate my skillset as both a web developer and GIS developer.</p>
             </div>
-
-            <div className="note">
-            <p color="color">Note: All interactive maps in this page were made with the ArcGIS Online platform only and because of that the feature capacity of the maps are limited. The aim of the maps is just to demonstrate my skillset as both a web developer and GIS developer.</p>
-            </div>
-
+        
             <div className="project">
             <h2>Ecological Zones of Manitoba</h2>
            
