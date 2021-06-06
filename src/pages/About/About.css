@@ -43,6 +43,7 @@
     .aboutcontainer{
         margin-left: 0px;
         padding-right: 70px;
+        overflow-x: hidden;
     }
   
     .aboutimage{
