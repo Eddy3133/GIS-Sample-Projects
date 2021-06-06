@@ -2,53 +2,66 @@
     color: white;
 }
 
-.aboutheading{
-    text-align: center;
-}
-
-.aboutheading h1{
-    margin-right: 90px;
-}
-
 .aboutimage{
-padding-top: 30px;
-}
-
-.aboutimage img{
-    width: 250px;
     float: left;
-    margin-left: 150px;
-    border-radius: 15px;    
-}
-
-.aboutimage p{
-    font-size: 25px;
-    float: right;
-    width: 55%;
-    margin-right: 150px;
-}
-
-.aboutimage h1{
-    float: left;
-    margin-left: 165px;
-    text-align: top; 
-}
-
-
-@media screen and (max-width: 768px) {
-
-    
-.aboutimage img{
-    width: 100px;
-    border-radius: 15px;    
-}
-
-    .aboutimage h1{
-       font-size: 10px;
-    }
-    
-    .aboutimage p{
-        font-size: 10px;
-        margin-right: 50px;
-    }
+    padding-right: 40px;
+    margin-left: 120px;
   }
+  .aboutimage img{
+    border-radius: 20px;
+  }
+
+.aboutinfo{
+    width: 90%;
+    font-size: 25px;
+    margin-left: 90px;
+}
+
+@media screen and (max-width: 1024px){
+    .aboutinfo{
+        font-size: 22px;
+    }  
+
+}
+@media screen and (max-width: 768px){
+
+    .aboutcontainer{
+        margin-left: 110px;
+    }
+    .aboutinfo{
+        font-size: 20px;
+        width: 70%;
+        text-align: center;
+    }  
+   
+    .aboutimage{
+        margin-left: 150px;
+      }
+}
+
+@media screen and (max-width: 698px ){
+    .aboutcontainer{
+        margin-left: 0px;
+        padding-right: 70px;
+    }
+  
+    .aboutimage{
+        margin-left: 90px;
+      }
+
+    .aboutimage img{
+        border-radius: 20px;
+        width: 150px;
+      }
+
+
+    .aboutinfo{
+        margin-right: 27px;
+        width: 81%;
+        font-size: 20px;
+    } 
+    .aboutinfo h1{
+        text-align: center;
+        font-size: 25px;
+    } 
+}
