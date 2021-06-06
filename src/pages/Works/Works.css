@@ -54,21 +54,26 @@
     overflow-x: hidden;
   }
   
+  .topic{
+    margin-left: 10px;
+  }
+  
 
   .project{
     width: 70%;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 50px;
   }
 
   .project iframe{
     width: 300px;
     height: 200px;
-    margin-right: 10px;
+    margin-right: 35px;
   }
   .project img{
     width: 300px;
     height: 200px;
+    margin-right: 25px;
   }
 
   .topic{
@@ -84,6 +89,13 @@
 }
 
 @media screen and (max-device-width: 320px){
+
+  .project{
+    width: 70%;
+    text-align: center;
+    margin-left: 45px;
+  }
+
   .project iframe{
     width: 200px;
     height: 100px;
