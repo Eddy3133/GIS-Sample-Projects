@@ -11,15 +11,14 @@
 }
 
 .aboutimage{
-padding-top: 40px;
+padding-top: 30px;
 }
 
 .aboutimage img{
     width: 250px;
     float: left;
     margin-left: 150px;
-    border-radius: 15px;
-    
+    border-radius: 15px;    
 }
 
 .aboutimage p{
@@ -32,6 +31,24 @@ padding-top: 40px;
 .aboutimage h1{
     float: left;
     margin-left: 165px;
-    text-align: top;
-    
+    text-align: top; 
 }
+
+
+@media screen and (max-width: 768px) {
+
+    
+.aboutimage img{
+    width: 100px;
+    border-radius: 15px;    
+}
+
+    .aboutimage h1{
+       font-size: 10px;
+    }
+    
+    .aboutimage p{
+        font-size: 10px;
+        margin-right: 50px;
+    }
+  }

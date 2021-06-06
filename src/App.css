@@ -4,3 +4,13 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+
+body::-webkit-scrollbar{
+  width: 0.6em
+ }
+
+ body::-webkit-scrollbar-thumb{
+   background-color: #4553FE;
+   border-radius: 10px;
+ }

@@ -16,33 +16,37 @@
   color: white;
 }
 
-
 .topic{
   margin-left: 245px;
 }
 
 .note{
-  margin-left: 245px;
-  word-wrap: inherit;
+  margin-left: 211px;
+  /* word-wrap: inherit; */
+  text-align: center;
+  width: 70%;
 }
 
-.project1{
+#test{
+  display: none;
+}
+
+.project{
+  width: 70%;
+  text-align: center;
+  margin-left: 211px;
+}
+ 
+@media screen and (max-width: 768px){
+
+  .project{
+    width: 70%;
+    text-align: center;
+    margin-left: 211px;
+  }
+
+  #test{
+    display: block;
+  }
    
-  width: 70%;
-  text-align: center;
-  margin-left: 211px;
- 
-}
- 
-  
-.project2{
-  width: 70%;
-  text-align: center;
-  margin-left: 211px;
-}
-
-.project3{
-  width: 70%;
-  text-align: center;
-  margin-left: 211px;
 }

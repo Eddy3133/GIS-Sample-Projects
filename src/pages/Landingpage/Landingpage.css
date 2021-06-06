@@ -21,6 +21,7 @@
     color: white;
     border: 1px solid white;
     padding: 17px 35px 17px 35px;
+    border-radius: 9px;
 }
 
  .dasboardbtn:hover{
@@ -53,5 +54,45 @@ padding-top: 45px;
  transition: ease-in-out 2s;
  animation: zoominandout 2s infinite;
 opacity: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        margin: auto;
+        width: 50%;
+    }
+    
+  
+.heading h1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+   }
+
+   .heading h3{
+    font-size: 10px;
+}
+
+.dasboardbtn{
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 9px;
+}
+
+.social{
+    padding-top: 100px;
+    }
+    
+    .social img { 
+     padding: 10px;  
+     width: 40px;
+    }
+ 
 }
 
