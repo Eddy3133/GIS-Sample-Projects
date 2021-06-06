@@ -36,17 +36,30 @@
   text-align: center;
   margin-left: 211px;
 }
+
+.project iframe{
+  width: 1000px;
+  height: 500px;
+}
+.project img{
+  width: 1000px;
+  height: 700px;
+}
  
 @media screen and (max-width: 768px){
 
   .project{
     width: 70%;
     text-align: center;
-    margin-left: 211px;
+    margin-left: 55px;
   }
 
-  #test{
-    display: block;
+  .project iframe{
+    width: 300px;
+  }
+  .project img{
+    width: 300px;
+    height: 200px;
   }
    
 }

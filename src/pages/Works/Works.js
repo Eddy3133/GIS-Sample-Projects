@@ -21,21 +21,22 @@ function Works() {
 
             <div className="project">
             <h2>Ecological Zones of Manitoba</h2>
+           
             <iframe loading="lazy" width= "1000" height="500" title="Ecological Areas of Manitoba" src="//ed3um6x3suex7ljp.maps.arcgis.com/apps/Embed/index.html?webmap=ba32d417be7c4dc498d82eb298a6c198&extent=-121.1799,46.0032,-69.3684,61.9948&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" />
             <p>The maps above shows the ecological zones within manitoba as well as the surrounding areas. if you <a href="https://ed3um6x3suex7ljp.maps.arcgis.com/home/webmap/viewer.html?webmap=ba32d417be7c4dc498d82eb298a6c198">click here</a> you would be able to see more information about the map.</p>
             </div>
 
-            <a id="test" href="https://caniuse.com/?search=keyframes" >View Ecological Zones Map</a>
+    
 
             <div className="project">
             <h2>Watershed Map</h2>
-            <iframe loading="lazy" width= "1000" height="500" title="Ecological Areas of Manitoba" src="//ed3um6x3suex7ljp.maps.arcgis.com/apps/Embed/index.html?webmap=a63dc8ab534c4c85956f5f16c2d09cc1&extent=-103.6258,48.8016,-90.6729,53.1486&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" />
+            <iframe loading="lazy"  title="Ecological Areas of Manitoba" src="//ed3um6x3suex7ljp.maps.arcgis.com/apps/Embed/index.html?webmap=a63dc8ab534c4c85956f5f16c2d09cc1&extent=-103.6258,48.8016,-90.6729,53.1486&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" />
             <p>This is a simple map that shows some of the watershed in Manitoba, which are categorized by the their respective names. <a target="_blank"  rel="noreferrer" href="https://ed3um6x3suex7ljp.maps.arcgis.com/home/webmap/viewer.html?webmap=a63dc8ab534c4c85956f5f16c2d09cc1">Click here</a> to see the legend  </p>
             </div>
 
             <div className="project">
             <h2>Manitoba's Health Regions</h2>
-            <iframe loading="lazy" width= "1000" height="500" title="Ecological Areas of Manitoba" src="//ed3um6x3suex7ljp.maps.arcgis.com/apps/Embed/index.html?webmap=ce37a660df334651a0bbf7cfd9a10438&extent=-97.4881,49.7403,-96.6786,50.0186&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" />
+            <iframe loading="lazy"  title="Ecological Areas of Manitoba" src="//ed3um6x3suex7ljp.maps.arcgis.com/apps/Embed/index.html?webmap=ce37a660df334651a0bbf7cfd9a10438&extent=-97.4881,49.7403,-96.6786,50.0186&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" />
             <p>This map shows the health regions within Manitoba. <a target="_blank"  rel="noreferrer" href="https://ed3um6x3suex7ljp.maps.arcgis.com/home/webmap/viewer.html?webmap=ce37a660df334651a0bbf7cfd9a10438">click here</a> to see legend</p>
             </div>
 
