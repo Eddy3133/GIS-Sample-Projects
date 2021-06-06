@@ -1,23 +1,15 @@
 
-/* .box{
-  position: absolute;
-  width: 1000px;
-  height: 500px;
-  border: 10px solid #181818;
-  border-radius: 20px;
-  border-radius: 20px;
-  border-radius: 20px;
-  text-align: center;
-  margin-left: 234px;
-  margin-top: 55px;
-  
-} */
 .workcontainer{
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .topic{
   margin-left: 245px;
+}
+
+.topic p{
+  width: 70%;
 }
 
 .note{

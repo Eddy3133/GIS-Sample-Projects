@@ -18,16 +18,16 @@ function Header() {
             <nav className="nav">
                 <ul>
                     <li><Link to="/"><img src={Logo} alt="Portfolio Emblem" /></Link></li>
-                    <li className="listitem"><Link to="/" >Home|</Link></li>
-                    <li className="listitem"><Link to="/works" >Works|</Link></li>
-                    <li className="listitem"><Link to="/about">About|</Link></li>
+                    <li className="listitem"><Link to="/" >Home</Link></li>
+                    <li className="listitem"><Link to="/works" >Works</Link></li>
+                    <li className="listitem"><Link to="/about">About</Link></li>
                     <li className="listitem"><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
             {/* mobile nav */}
             <div id="mySidepanel" style={{ width: expand ? "250px" : "0px"}} className="sidepanel">
         <Link to="/" >Home</Link>
-        <Link to="/works" >Works|</Link>
+        <Link to="/works" >Works</Link>
         <Link to="/about" >About</Link>
        <Link  to="/contact">Contact</Link>
     </div>
