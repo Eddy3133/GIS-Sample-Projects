@@ -39,7 +39,7 @@
       }
 }
 
-@media screen and (max-width: 698px ){
+@media screen and (max-width: 500px ){
     .aboutcontainer{
         margin-left: 0px;
         padding-right: 70px;
@@ -57,7 +57,7 @@
 
     .aboutinfo{
         margin-right: 27px;
-        width: 81%;
+        width: 80%;
         font-size: 20px;
     } 
     .aboutinfo h1{
