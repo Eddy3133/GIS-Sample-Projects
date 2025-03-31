@@ -27,7 +27,7 @@ function Works() {
                 />
                 <p>
                     This project demonstrates the integration of OpenAI's DALL-E 3 API with modern web technologies to create an interactive map generation tool. 
-                    Users can describe their desired map in natural language, choose from various styles (realistic, fantasy, vintage, minimalist), and receive a unique AI-generated map visualization.
+                    Users can describe their desired map, choose from various styles (realistic, fantasy, vintage, minimalist), and receive a unique (non-spatial) AI-generated map visualization.
                     <br/><br/>
                     Key features:
                     <ul>
