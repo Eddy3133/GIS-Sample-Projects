@@ -12,6 +12,36 @@ function Works() {
              
         <div className="workcontainer">
             <div className="topic">
+                <h1>AI-Powered Map Generation</h1>
+                <p>An innovative project that combines artificial intelligence with map generation, allowing users to create custom maps through natural language descriptions.</p>
+            </div>
+
+            <div className="project">
+                <h2>AI Map Generator</h2>
+                <iframe 
+                    loading="lazy" 
+                    width="1000" 
+                    height="600" 
+                    title="AI Map Generator" 
+                    src="https://eddy3133.github.io/ai-map-generator/"
+                />
+                <p>
+                    This project demonstrates the integration of OpenAI's DALL-E 3 API with modern web technologies to create an interactive map generation tool. 
+                    Users can describe their desired map in natural language, choose from various styles (realistic, fantasy, vintage, minimalist), and receive a unique AI-generated map visualization.
+                    <br/><br/>
+                    Key features:
+                    <ul>
+                        <li>Natural language map generation</li>
+                        <li>Multiple map styles</li>
+                        <li>Real-time AI processing</li>
+                        <li>Responsive web interface</li>
+                        <li>FastAPI backend with OpenAI integration</li>
+                    </ul>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/Eddy3133/ai-map-generator">View the project on GitHub</a>
+                </p>
+            </div>
+
+            <div className="topic">
             <h1>ArcGIS Online Maps</h1> 
             <p>Note: All interactive maps in this page were made with the ArcGIS Online platform only and because of that the feature capacity of the maps are limited. The aim of the maps is just to demonstrate my skillset as both a web developer and GIS developer.</p>
             </div>
