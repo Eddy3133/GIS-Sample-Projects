@@ -17,7 +17,7 @@ function Landingpage() {
             </div>
             <div className="social">
              <a href="https://github.com/Eddy3133" rel="noreferrer" target="_blank"><img src={github} alt="github" /></a>
-             <a href="https://www.linkedin.com/in/edirin-okpikpi-558286140/" rel="noreferrer" target="_blank"><img src={linkedin} alt="linkedin" /></a>
+             <a href="https://www.linkedin.com/in/edirin-okpikpi-asct-558286140/" rel="noreferrer" target="_blank"><img src={linkedin} alt="linkedin" /></a>
             </div>
             <Footer />
         </div>
