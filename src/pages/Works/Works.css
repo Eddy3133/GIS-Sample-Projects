@@ -41,6 +41,15 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Make ArcGIS custom element responsive like iframes */
+.project arcgis-embedded-map {
+  display: block;
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* Specific styles for AI Map Generator iframe */
 .project iframe[title="AI Map Generator"] {
   height: 600px;
@@ -96,6 +105,11 @@
     margin-right: 0;
   }
 
+  .project arcgis-embedded-map {
+    width: 100%;
+    height: 400px;
+  }
+
   .project iframe[title="AI Map Generator"] {
     height: 500px;
   }
@@ -126,6 +140,11 @@
   }
 
   .project iframe{
+    width: 100%;
+    height: 300px;
+  }
+
+  .project arcgis-embedded-map {
     width: 100%;
     height: 300px;
   }
